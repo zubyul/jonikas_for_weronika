@@ -31,3 +31,16 @@ I also recommend getting Anaconda3, and instead of launching jupyter directly, l
 jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
 
 Otherwise it runs out of space to show figures for all the plates.
+
+DATA
+
+The data is as follows:
+
+C1 and C2 = replicates of high CO2 condition, grown in TP in light.
+
+R1 and R2 = replicates of regular atmosphere condition, TP in light. (Control)
+
+D1 and D2 = replicates of regular atmosphere, dark TAP condition.
+
+The data being used is the internal barcode, location, and read count across these experimental conditions. 3 and 5 in the code are referring to 3’ and 5’ data.
+
