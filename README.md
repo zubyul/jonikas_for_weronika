@@ -17,3 +17,16 @@ Martin Style data analysis: Martin suggested I drop low readcounts, then create 
                            This is just me playing around with the dropped readcount data and creating various scatterplots.
                            
 Martin style final scatterplots: This is where I try to scatterplot the ratios of the condition/control data against each other in replicate and between plate ages. It fails
+
+HOW TO USE 
+
+If you want to use the scripts, you will have to request the data from Weronika and then change this following part in the first box of each script to point to the location of the file in your drive.
+
+df3 = pd.read_table(r"D:\Yuliya_test_data_table\Yuliya_test_data_table_deconv-only_3prime.txt", delimiter = '\t')#, nrows=2)
+df5 = pd.read_table(r"D:\Yuliya_test_data_table\Yuliya_test_data_table_deconv-only.txt", delimiter = '\t')#, nrows=2)
+
+I also recommend getting Anaconda3 and instead of launching jupyter directly, launching it from commandline with this command: 
+
+jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
+
+Otherwise it runs out of space to show figures for all the plates.
