@@ -26,7 +26,7 @@ df3 = pd.read_table(r"D:\Yuliya_test_data_table\Yuliya_test_data_table_deconv-on
 
 df5 = pd.read_table(r"D:\Yuliya_test_data_table\Yuliya_test_data_table_deconv-only.txt", delimiter = '\t')#, nrows=2)
 
-I also recommend getting Anaconda3 and instead of launching jupyter directly, launching it from commandline with this command: 
+I also recommend getting Anaconda3, and instead of launching jupyter directly, launching it from commandline with this command: 
 
 jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
 
