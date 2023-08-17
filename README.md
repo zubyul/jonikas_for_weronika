@@ -16,7 +16,7 @@ box plots for data range between plate ages: The point of this script was to see
 Martin Style data analysis: Martin suggested I drop low readcounts, then create a ratio between the control and experiment, then graph them against each other. 
                            This is just me playing around with the dropped readcount data and creating various scatterplots.
                            
-Martin style final scatterplots: This is where I try to scatterplot the ratios of the condition/control data against each other in replicate and between plate ages. It fails
+Martin style final scatterplots: This is where I try to scatterplot the ratios of the condition/control data against each other in replicate and between plate ages. It fails, but I'm fairly sure it's because I did something wrong- the standardization might be a problem, or I'm dividing it in the wrong direction or something- and not because of the data, because when I was playing around with it setting it up I remember getting lines of correlation.
 
 HOW TO USE 
 
