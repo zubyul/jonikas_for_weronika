@@ -20,7 +20,7 @@ Martin style final scatterplots: This is where I try to scatterplot the ratios o
 
 HOW TO USE 
 
-If you want to use the scripts, you will have to request the data from Weronika and then change this following part in the first box of each script to point to the location of the file in your drive.
+If you want to use the scripts, you will have to request the data from Weronika and then change this following part in the first box of each script to point to the location of the file in your drive. Otherwise feel free to just copy paste & tie in your own data.
 
 df3 = pd.read_table(r"D:\Yuliya_test_data_table\Yuliya_test_data_table_deconv-only_3prime.txt", delimiter = '\t')#, nrows=2)
 
@@ -40,7 +40,7 @@ C1 and C2 = replicates of high CO2 condition, grown in TP in light.
 
 R1 and R2 = replicates of regular atmosphere condition, TP in light. (Control)
 
-D1 and D2 = replicates of regular atmosphere, dark TAP condition.
+D1 and D2 = replicates of regular atmosphere, dark TAP condition. (Martin recommends using this as control for CO2 data)
 
-The data being used is the internal barcode, location, and read count across these experimental conditions. 3 and 5 in the code are referring to 3’ and 5’ data.
+The data being used is the internal barcode, location, and read count across these experimental conditions. 3 and 5 in the code are referring to 3’ and 5’ data. The 3' data has the C2 and D2 data merged - it was missing basepairs.
 
